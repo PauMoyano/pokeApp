@@ -1,0 +1,82 @@
+.containerPoke{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.name{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 2.5rem;
+    text-shadow: 2px 3px rgba(241, 232, 232, 0.9);
+    font-weight: 600;
+}
+.imgPoke{
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0,0.7);
+    border-radius: 45%;
+    width: 200px;
+}
+.containerImg{
+    background: radial-gradient(circle, rgba(1,0,8,0.7) 0%, rgba(0,212,255,0) 100%);
+    width: 59%;
+    height: 125%;
+    display: flex;
+    justify-content: center;
+    border-radius: 75%;
+    margin-top: 5%;
+}
+.typesPoke{
+    text-align: center;
+    margin-top:2%;
+    font-size: 1.7rem;
+    font-weight: 500;
+    
+}
+.statsPoke{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 650;
+    margin: 2% !important;
+    
+}
+.idPoke{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.heiW{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+@media (min-width: 700px) {
+    .containerImg{
+        width: 40%;
+    }
+    .BoxContain{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        margin-top: 5%;
+    }
+    .divDatos{
+      width: 50%;
+      height: 100%;
+      margin-top: 6.5%;
+    }
+    .containerPoke{
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 350px) {
+    .containerImg{
+        width: 29%;
+    }
+}

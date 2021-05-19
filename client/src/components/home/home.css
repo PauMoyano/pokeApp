@@ -1,0 +1,94 @@
+.containCards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.boxCardPagination{
+    display: flex;
+    flex-direction: column;
+}
+.btnHome {
+    border: none;
+    background-color: rgba(209, 8, 8, 0.856);
+    color: blanchedalmond;
+    border-radius: 15px;
+    width: 50%;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btnHomeR {
+    border: none;
+    background-color: rgba(17, 17, 17, 0.856);
+    color: blanchedalmond;
+    border-radius: 15px;
+    width: 50%;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+.btnSearch{
+    border: none;
+    background-color: rgb(126, 3, 116);
+    color: blanchedalmond;
+    border-radius: 14px;
+    width: 15%;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btnNew{
+    border: none;
+    background-color: rgba(35, 190, 3, 0.932);
+    color: blanchedalmond;
+    border-radius: 15px;
+    width: 14%;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputHome {
+    border: none;
+    background-color: rgba(241, 238, 238, 0.904);
+    color: rgb(20, 20, 20);
+    border-radius: 15px;
+    width: 65%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    outline: none;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+@media (min-width: 700px) {
+    .inputHome{
+        width: 59%;
+        margin-left: 3%;
+    }
+    .btnHome {
+        width: 46%;
+        margin-left: 3%;
+        padding: 0.5%;
+    }
+    .btnHomeR {
+        width: 46%;
+        padding: 0.5%;
+    }
+    .containerHome{
+        margin-top: 2%;
+    }
+    .boxCardPagination{
+        padding-bottom: 3%;
+        padding-top: 3%;
+    }
+}

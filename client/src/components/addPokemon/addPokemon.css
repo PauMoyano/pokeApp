@@ -1,0 +1,116 @@
+input {
+    background: rgba(255, 255, 255, 0.555);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 2%;
+    font-size: 1.2rem;
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+}
+.selectType{
+        background: rgba(255, 255, 255, 0.555);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 10px;
+        width: 60%;
+        margin-left: 2%;
+        font-size: 1.2rem;
+        color: rgb(15, 15, 15);
+        font-weight: 600;
+        justify-content: center;
+        text-align: center;
+        outline: none;
+    
+}
+.TypeSelected{
+        background: rgba(255, 255, 255, 0.555);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 10px;
+        width: 20%;
+        margin-left: 1%;
+        font-size: 1.2rem;
+        color: rgb(15, 15, 15);
+        font-weight: 600;
+        justify-content: center;
+        text-align: center;
+        outline: none;
+}
+.btnType{
+    border: none;
+    background: none;
+}
+.FormContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+label{
+    font-weight: 700;
+    width: 30%;
+    justify-content: left;
+    text-align: left;
+    margin-right: 1%;
+}
+.titAdd{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 3%;
+}
+.Box{
+    margin: 2%;
+    font-size: 1.5rem;
+}
+.btnAdd{
+    background-color: rgba(30, 160, 4, 0.959);
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.884);
+    margin-top: 1%;
+    padding: 2%;
+    outline: none;
+}
+
+@media (min-width: 700px) { 
+    .Box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .formBox{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    .divLabel{
+        padding-left: 25%;
+        display: flex;
+        justify-content: left;
+        width: 30%;
+    }
+    .divInput{
+        display: flex;
+        justify-content: right;
+        width: 69%;
+    }
+    .btnAdd{
+        padding: 1%;
+    }
+ }

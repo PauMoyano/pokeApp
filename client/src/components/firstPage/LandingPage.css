@@ -1,0 +1,114 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    padding-top: 30%;
+}
+.pokebola{
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+.clickHere{
+  position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.pokemon{
+    justify-content: center;
+    width: 80%;
+}
+.btnPokebola{
+    border: none;
+    background:none;
+    outline: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+/* --------- Pokebola animacion-----------*/
+.btnPokebola {
+    animation-duration: 12s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  /*--------------Pokemon animacion---------------*/
+  .pokemon {
+    animation-duration: 4s;
+    animation-name: Appear;
+  }
+  
+  @keyframes Appear {
+    from {
+      margin-top: 100%;
+      width: 200%
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 80%;
+    }
+  }
+
+
+  @media screen and (min-width: 700px) {
+    .container{
+      padding-top: 5%;
+    }
+    .pokemon{
+      justify-content: center;
+      width: 35%;
+    }
+    .pokebola{
+      justify-content: center;
+      width: 20%;
+      height: 20%;
+    }
+    
+  }
+  @media (min-width: 992px) {
+    .container{
+      padding-top: 5%;
+    }
+    .pokemon{
+      justify-content: center;
+      width: 35%;
+    }
+    .pokebola{
+      justify-content: center;
+      width: 20%;
+      height: 20%;
+    }
+  }
+  @media screen and (min-width:1200px){
+    .container{
+      padding-top: 5%;
+    }
+    .pokemon{
+      justify-content: center;
+      width: 35%;
+    }
+    .pokebola{
+      justify-content: center;
+      width: 20%;
+      height: 20%;
+    }
+  }
